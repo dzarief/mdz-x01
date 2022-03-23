@@ -6,8 +6,7 @@
     },
     "type": "REST",
     "userInterface": {
-        "configInspector":
-        {
+        "configInspector": {
             "size" : "medium"
         }
     }
