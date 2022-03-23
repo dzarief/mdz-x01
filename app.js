@@ -2,7 +2,7 @@ var HTTP_PORT = process.env.PORT || 8080;
 var express = require("express");
 var app = express();
 
-aapp.use(express.static('public'));
+app.use(express.static('public'));
 
 // setup http server to listen on HTTP_PORT
 app.listen(HTTP_PORT);
