@@ -1,14 +1,8 @@
 {
     "workflowApiVersion": "1.1",
-    "key": "9f45f0f4-9424-4856-81ff-8f73b856c3db",
     "metadata": {
-        "icon":"icon.png",
-        "category":"message"
+      "icon": "icon.png",
+      "category": "message"
     },
-    "type": "REST",
-    "userInterface": {
-        "configInspector": {
-            "size" : "medium"
-        }
-    }
-}
+    "type": "REST"
+  }
