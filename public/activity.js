@@ -4,7 +4,7 @@ var connection = new Postmonger.Session();
 connection.trigger('ready');
 
 connection.on('initActivity', function( data ) {
-  document.getElementById( 'configuration' ).value = 'ABCD';
+  document.getElementById( 'configuration' ).value = '';
 });
 
 // Save Sequence
