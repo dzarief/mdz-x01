@@ -5,7 +5,6 @@ connection.trigger('ready');
 
 connection.on('initActivity', function( data ) {
   console.log('toll y ');
-  console.log('toll x '+jsonData);
   
   document.getElementById( 'configuration' ).value = JSON.stringify( data, null, 2 );
 });
