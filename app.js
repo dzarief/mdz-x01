@@ -1,6 +1,6 @@
 var HTTP_PORT = process.env.PORT || 8080;
-const jsonData= require('./public/config.json'); 
-console.log(jsonData);
+//const jsonData= require('./public/config.json'); 
+
 var express = require("express");
 var app = express();
 
