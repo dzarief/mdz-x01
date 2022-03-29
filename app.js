@@ -13,4 +13,4 @@ app.use(express.static('public'));
 app.listen(8080);*/
 
 const jsonData= require('/config.json'); 
-console.log(jsonData);
+//console.log(jsonData);
