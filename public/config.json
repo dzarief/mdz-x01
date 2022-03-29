@@ -1,40 +1,8 @@
 {
-    "name": "",
-    "key": "REST-4",
-    "type": "REST",
-    "arguments": {
-      "execute": {
-        "inArguments": [
-          {
-            "phoneNumber": "0123456789"
-          }
-        ],
-        "url": "https://eolxm1x2byi440h.m.pipedream.net"
-      }
+    "workflowApiVersion": "1.1",
+    "metadata": {
+        "icon":"icon.png",
+        "category":"message"
     },
-    "configurationArguments": {
-      "publish": {
-        "url": "https://eolxm1x2byi440h.m.pipedream.net"
-      }
-    },
-    "metaData": {
-      "icon": "https://mdz-x01.herokuapp.com/icon.png",
-      "category": "message",
-      "iconSmall": null,
-      "statsContactIcon": null,
-      "original_icon": "icon.png",
-      "isConfigured": false
-    },
-    "editable": true,
-    "outcomes": [
-      {
-        "key": "6bd5344e-9932-4c57-9918-3ffb460dbf26",
-        "next": "WAITBYDURATION-1",
-        "arguments": {},
-        "metaData": {
-          "invalid": false
-        }
-      }
-    ],
-    "errors": null
-  }
+    "type": "REST"
+}
