@@ -4,8 +4,6 @@ var connection = new Postmonger.Session();
 connection.trigger('ready');
 
 connection.on('initActivity', function( data ) {
-  console.log('toll y ');
-  
   document.getElementById( 'configuration' ).value = JSON.stringify( data, null, 2 );
 });
 

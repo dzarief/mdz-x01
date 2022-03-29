@@ -1,6 +1,4 @@
 var HTTP_PORT = process.env.PORT || 8080;
-//const jsonData= require('./public/config.json'); 
-
 var express = require("express");
 var app = express();
 
@@ -13,4 +11,3 @@ app.listen(HTTP_PORT);
 const app = express();
 app.use(express.static('public'));
 app.listen(8080);*/
-
