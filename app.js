@@ -11,3 +11,6 @@ app.listen(HTTP_PORT);
 const app = express();
 app.use(express.static('public'));
 app.listen(8080);*/
+
+const jsonData= require('./config.json'); 
+console.log(jsonData);

@@ -1,8 +1,40 @@
 {
-    "workflowApiVersion": "1.1",
-    "metadata": {
-        "icon":"icon.png",
-        "category":"message"
+    "name": "",
+    "key": "REST-4",
+    "type": "REST",
+    "arguments": {
+      "execute": {
+        "inArguments": [
+          {
+            "phoneNumber": "0123456789"
+          }
+        ],
+        "url": "https://0bc36da5cb08ce01a3335df44d9226f0.m.pipedream.net"
+      }
     },
-    "type": "REST"
-}
+    "configurationArguments": {
+      "publish": {
+        "url": "https://0bc36da5cb08ce01a3335df44d9226f0.m.pipedream.net"
+      }
+    },
+    "metaData": {
+      "icon": "https://mdz-x01.herokuapp.com/icon.png",
+      "category": "message",
+      "iconSmall": null,
+      "statsContactIcon": null,
+      "original_icon": "icon.png",
+      "isConfigured": false
+    },
+    "editable": true,
+    "outcomes": [
+      {
+        "key": "6bd5344e-9932-4c57-9918-3ffb460dbf26",
+        "next": "WAITBYDURATION-1",
+        "arguments": {},
+        "metaData": {
+          "invalid": false
+        }
+      }
+    ],
+    "errors": null
+  }
