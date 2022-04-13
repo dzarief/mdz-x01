@@ -1,8 +1,33 @@
 {
     "workflowApiVersion": "1.1",
-    "metadata": {
-        "icon":"icon.png",
-        "category":"message"
+    "metaData": {
+      "icon": "images/sms.png",
+      "category": "message"
     },
-    "type": "REST"
-}
+    "type": "REST",
+    "lang": {
+      "en-US": {
+        "name": "REST Activity",
+        "description": "An example REST activity using workflow API v1.1 format."
+      }
+    },
+    "arguments": {
+      "execute": {
+        "inArguments": [
+          {
+            "emailAddress": "{{InteractionDefaults.Name}}",
+            "phoneNumber": "{{Contact.Default.Name}}",
+            "SubscriberKey": "{{Contact.Key}}"
+          }
+        ],
+        "outArguments": "",
+        "url": "https://eoa0h5k9iak1fxb.m.pipedream.net"
+      }
+    },
+    "configurationArguments": {
+      "save": "",
+      "publish": "",
+      "validate": "",
+      "stop": ""
+    }
+  }
