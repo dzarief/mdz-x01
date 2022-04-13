@@ -1,8 +1,9 @@
 {
     "workflowApiVersion": "1.1",
-    "metaData": {
-      "icon": "images/sms.png",
-      "category": "message"
+    "metadata": {
+        "icon":"icon.png",
+        "category":"message",
+        "isConfigured": true
     },
     "type": "REST",
     "lang": {
