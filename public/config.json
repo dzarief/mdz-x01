@@ -16,8 +16,6 @@
       "execute": {
         "inArguments": [
           {
-            "emailAddress": "{{InteractionDefaults.Name}}",
-            "phoneNumber": "{{Contact.Default.Name}}",
             "SubscriberKey": "{{Contact.Key}}"
           }
         ],
