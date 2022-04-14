@@ -5,6 +5,7 @@ connection.trigger('ready');
 
 connection.on('initActivity', function( data ) {
   document.getElementById( 'configuration' ).value = JSON.stringify( data, null, 2 );
+  configuration["arguments"].execute.inArguments.Name = 'Hello x';
 });
 
 // Save Sequence
