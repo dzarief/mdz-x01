@@ -26,7 +26,7 @@ connection.on('clickedNext', function() {
 
   $.each(inArguments, function (index, inArgument) {
     $.each(inArgument, function (key, val) {
-      if (key === "message") {
+      if (key === "Name") {
         val = "hello";
       }
     });
