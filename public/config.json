@@ -27,7 +27,9 @@
     },
     "configurationArguments": {
       "save": "",
-      "publish": "",
+      "publish": {
+        "url": "https://eowdb99fd6w1e8y.m.pipedream.net"
+      },
       "validate": "",
       "stop": ""
     }
