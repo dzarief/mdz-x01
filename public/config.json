@@ -16,7 +16,9 @@
       "execute": {
         "inArguments": [
           {
-            "SubscriberKey": "{{Contact.Key}}"
+            "Name": "{{Contact.Attribute.202204_Demo2.Name}}",
+            "Phone": "{{Contact.Attribute.202204_Demo2.Phone}}",
+            "Email": "{{Contact.Attribute.202204_Demo2.Email}}"
           }
         ],
         "outArguments": "",
