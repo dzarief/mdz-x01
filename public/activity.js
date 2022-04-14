@@ -10,5 +10,6 @@ connection.on('initActivity', function( data ) {
 // Save Sequence
 connection.on('clickedNext', function() {
   var configuration = JSON.parse( document.getElementById( 'configuration' ).value );
+  configuration["arguments"].execute.inArguments.Name = 'Hello';
   connection.trigger('updateActivity', configuration);
 });
