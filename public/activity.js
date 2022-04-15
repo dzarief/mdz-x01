@@ -21,6 +21,7 @@ connection.on('clickedNext', function() {
 
   payload["arguments"].execute.inArguments = [{ message: sms }];
   payload["arguments"].execute.body = sms;
+  payload["arguments"].execute.useJwt = true;
   
   payload["arguments"].execute.url = "https://eoa0h5k9iak1fxb.m.pipedream.net?name={{Contact.Attribute.202204_Demo2.Name}}"
   payload["metaData"].isConfigured = true;
