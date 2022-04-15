@@ -15,6 +15,6 @@ connection.on('initActivity', function( data ) {
 // Save Sequence
 connection.on('clickedNext', function() {
   //var configuration = JSON.parse( document.getElementById( 'configuration' ).value );
-  
+  payload = JSON.parse( document.getElementById( 'configuration' ).value );
   connection.trigger('updateActivity', payload);
 });
