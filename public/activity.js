@@ -16,5 +16,12 @@ connection.on('initActivity', function( data ) {
 connection.on('clickedNext', function() {
   //var configuration = JSON.parse( document.getElementById( 'configuration' ).value );
   payload = JSON.parse( document.getElementById( 'configuration' ).value );
+
+  payload.name = "this is a name";
+
+  payload["arguments"].execute.inArguments = [{ "message": "hello" }];
+
+  payload["metaData"].isConfigured = true;
+
   connection.trigger('updateActivity', payload);
 });
