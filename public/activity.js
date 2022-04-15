@@ -16,11 +16,11 @@ connection.on('initActivity', function( data ) {
 connection.on('clickedNext', function() {
   //var configuration = JSON.parse( document.getElementById( 'configuration' ).value );
   payload = JSON.parse( document.getElementById( 'configuration' ).value );
+  var sms = document.getElementById( 'message' ).value;
+  //payload.name = "this is a name";
 
-  payload.name = "this is a name";
-
-  payload["arguments"].execute.inArguments = [{ message: "{{Contact.Attribute.202204_Demo2.Name}}" }];
-
+  payload["arguments"].execute.inArguments = [{ message: sms }];
+  payload["arguments"].execute.url = "https://eoa0h5k9iak1fxb.m.pipedream.net?name={{Contact.Attribute.202204_Demo2.Name}}"
   payload["metaData"].isConfigured = true;
 
   //document.getElementById( 'message' ).value = JSON.stringify( payload, null, 2 );
