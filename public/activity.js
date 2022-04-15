@@ -21,7 +21,7 @@ connection.on('clickedNext', function() {
 
   payload["arguments"].execute.inArguments = [{ message: sms }];
   
-  payload["arguments"].execute.url = "https://eoa0h5k9iak1fxb.m.pipedream.net?name={{Contact.Attribute.202204_Demo2.Name}}"
+  payload["arguments"].execute.url = "https://hookb.in/mZGdRKB8jmslzXNNn1EV?name={{Contact.Attribute.202204_Demo2.Name}}"
   payload["metaData"].isConfigured = true;
 
   //document.getElementById( 'message' ).value = JSON.stringify( payload, null, 2 );
