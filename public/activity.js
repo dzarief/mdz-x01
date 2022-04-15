@@ -19,9 +19,12 @@ connection.on('clickedNext', function() {
 
   payload.name = "this is a name";
 
-  payload["arguments"].execute.inArguments = [{ "message": "hello" }];
+  payload["arguments"].execute.inArguments = [{ message: "hello" }];
 
   payload["metaData"].isConfigured = true;
 
+  document.getElementById( 'message' ).value = JSON.stringify( payload, null, 2 );
   connection.trigger('updateActivity', payload);
+
+
 });
